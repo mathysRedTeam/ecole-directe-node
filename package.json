@@ -23,8 +23,10 @@
     "fr"
   ],
   "dependencies": {
-    "dotenv": "^16.0.0",
     "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
   },
   "repository": {
     "type": "git",
