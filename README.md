@@ -25,7 +25,7 @@ const myED=require("ecole-directe-node");
     let firstMessageId=myMessages.data.messages.received[0].id;
     let firstMessageContent=await myED.getMessageContent(session,firstMessageId);
 
-    //retourne l'emploi du temps
+    //retourne l'emploi du temps !
     let edt=await myED.getEDT(session,"2022-03-14","2022-03-20");
 
     //retourne les notes du trimestre
