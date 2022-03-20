@@ -20,7 +20,8 @@
     "ecoledirect",
     "ecole direct",
     "pronote",
-    "fr"
+    "fr",
+    "ed"
   ],
   "dependencies": {
     "node-fetch": "^2.6.7"
