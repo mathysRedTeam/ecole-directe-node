@@ -1,7 +1,7 @@
 # Ecole Directe Node
 
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build status][travis-image]][travis-url] [![Coverage status][codecov-image]][codecov-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev dependency status][david-dm-dev-image]][david-dm-dev-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build status][travis-image]][travis-url] [![Coverage status][codecov-image]][codecov-url]
 
 ## Fonctionnalités
 
@@ -55,7 +55,3 @@ const myED=require("ecole-directe-node");
 [travis-image]:http://img.shields.io/travis/npms-io/npms-cli/master.svg
 [codecov-url]:https://codecov.io/gh/npms-io/npms-cli
 [codecov-image]:https://img.shields.io/codecov/c/github/npms-io/npms-cli/master.svg
-[david-dm-url]:https://david-dm.org/npms-io/npms-cli
-[david-dm-image]:https://img.shields.io/david/npms-io/npms-cli.svg
-[david-dm-dev-url]:https://david-dm.org/npms-io/npms-cli#info=devDependencies
-[david-dm-dev-image]:https://img.shields.io/david/dev/npms-io/npms-cli.svg
