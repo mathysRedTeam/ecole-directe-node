@@ -1,7 +1,7 @@
 # Ecole Directe Node
 
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build status][travis-image]][travis-url] [![Coverage status][codecov-image]][codecov-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build status][travis-image]][travis-url] [![npm license](https://img.shields.io/npm/l/badge-maker.svg)](https://npmjs.org/package/badge-maker)
 
 ## Fonctionnalités
 
@@ -48,10 +48,8 @@ const myED=require("ecole-directe-node");
 })()
 ```
 
-[npm-url]:https://npmjs.org/package/npms-cli
-[downloads-image]:http://img.shields.io/npm/dm/npms-cli.svg
-[npm-image]:http://img.shields.io/npm/v/npms-cli.svg
-[travis-url]:https://travis-ci.org/npms-io/npms-cli
-[travis-image]:http://img.shields.io/travis/npms-io/npms-cli/master.svg
-[codecov-url]:https://codecov.io/gh/npms-io/npms-cli
-[codecov-image]:https://img.shields.io/codecov/c/github/npms-io/npms-cli/master.svg
+[npm-url]:https://npmjs.org/package/ecole-directe-node
+[downloads-image]:http://img.shields.io/npm/dm/ecole-directe-node.svg
+[npm-image]:http://img.shields.io/npm/v/ecole-directe-node.svg
+[travis-url]:https://travis-ci.org/npms-io/ecole-directe-node
+[travis-image]:http://img.shields.io/travis/npms-io/ecole-directe-node/master.svg
