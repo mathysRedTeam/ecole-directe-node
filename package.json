@@ -4,7 +4,7 @@
   "description": "Best ecoledirecte package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "",
   "license": "Apache-2.0",
@@ -23,6 +23,7 @@
     "fr"
   ],
   "dependencies": {
+    "mocha": "^9.2.2",
     "node-fetch": "^2.6.7"
   },
   "repository": {
