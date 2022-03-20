@@ -35,7 +35,7 @@ const myED=require("ecole-directe-node");
     let homework=await myED.getAllHomework(session);
 
     //retourne les devoirs d'une date
-    let dailyHomework=await myED.getDailyHomework(session,"2022-03-25")
+    let dailyHomework=await myED.getDailyHomework(session,"2022-03-26")
 
     let homeworkID=1234;
     //coche le devoir
