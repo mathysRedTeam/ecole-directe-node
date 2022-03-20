@@ -1,7 +1,7 @@
 # Ecole Directe Node
 
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![npm downloads](https://img.shields.io/npm/dt/ecole-directe-node)](https://www.npmjs.com/package/ecole-directe-badge) [![npm license](https://img.shields.io/npm/l/ecole-directe-node.svg)](https://npmjs.org/package/ecole-directe-node)
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![npm downloads](https://img.shields.io/npm/dt/ecole-directe-node)](https://www.npmjs.com/package/ecole-directe-node) [![npm license](https://img.shields.io/npm/l/ecole-directe-node.svg)](https://npmjs.org/package/ecole-directe-node)
 
 ## Fonctionnalités
 
