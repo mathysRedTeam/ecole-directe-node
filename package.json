@@ -1,0 +1,28 @@
+{
+  "name": "ecole-directe-node",
+  "version": "2.0.1",
+  "description": "Best ecoledirecte package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "keywords": [
+    "node",
+    "ecole",
+    "directe",
+    "api",
+    "ecoledirecte",
+    "france",
+    "ecole directe",
+    "direct",
+    "ecoledirect",
+    "ecole direct",
+    "pronote",
+    "fr"
+  ],
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
