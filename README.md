@@ -1,4 +1,4 @@
-# ecole-directe-node
+# Ecole Directe Node
 [![downloadsBadge](https://img.shields.io/npm/dt/ecole-directe-node?style=for-the-badge)](https://npmjs.com/ecole-directe-node)
 [![versionBadge](https://img.shields.io/npm/v/ecole-directe-node?style=for-the-badge)](https://npmjs.com/ecole-directe-node)
 ## Fonctionnalités
