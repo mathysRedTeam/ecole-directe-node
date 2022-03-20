@@ -12,23 +12,29 @@
 ```js
 const myED=require("ecole-directe-node");
 
-let session=await myED.login("username","password");
+async function start(){
+    let session=await myED.login("username","password");
 
-let myMessages=await myED.getMessages(session);
+    let myMessages=await myED.getMessages(session);
 
-let firstMessageId=myMessages.data.messages.received[0].id;
-let firstMessageContent=await myED.getMessageContent(session,firstMessageId);
+    let firstMessageId=myMessages.data.messages.received[0].id;
+    let firstMessageContent=await myED.getMessageContent(session,firstMessageId);
 
-let edt=await myED.getEDT(session,"2022-03-14","2022-03-20");
+    let edt=await myED.getEDT(session,"2022-03-14","2022-03-20");
 
-let notes=await myED.getNotes(session);
+    let notes=await myED.getNotes(session);
 
-let homework=await myED.getAllHomework(session);
+    let homework=await myED.getAllHomework(session);
 
-let dailyHomework=await myED.getDailyHomework(session,"2022-03-22")
+    let dailyHomework=await myED.getDailyHomework(session,"2022-03-22")
 
-let homeworkID=1234;
-await myED.checkHomework(session,homeworkID)
+    let homeworkID=1234;
+    await myED.checkHomework(session,homeworkID)
 
-await myED.unchekHomework(session,homeworkID)
+    await myED.unchekHomework(session,homeworkID)
+}
+
+start();
+
+
 ```
