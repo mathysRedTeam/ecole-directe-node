@@ -1,6 +1,5 @@
 # Ecole Directe Node
-[![downloadsBadge](https://img.shields.io/npm/dt/ecole-directe-node?style=for-the-badge)](https://npmjs.com/ecole-directe-node)
-[![versionBadge](https://img.shields.io/npm/v/ecole-directe-node?style=for-the-badge)](https://npmjs.com/ecole-directe-node)
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build status][travis-image]][travis-url] [![Coverage status][coveralls-image]][coveralls-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev dependency status][david-dm-dev-image]][david-dm-dev-url]
 ## Fonctionnalités
 
 🔐 Authentification pour les comptes **Élèves**  
