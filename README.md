@@ -12,29 +12,38 @@
 ```js
 const myED=require("ecole-directe-node");
 
-async function start(){
+(async () => {
+    //retourne les informations de la session et de l'élève
     let session=await myED.login("username","password");
 
+
+    //retourne la liste des messages
     let myMessages=await myED.getMessages(session);
 
+
+    //retourne le dernier message reçu
     let firstMessageId=myMessages.data.messages.received[0].id;
     let firstMessageContent=await myED.getMessageContent(session,firstMessageId);
 
+    //retourne l'emploi du temps
     let edt=await myED.getEDT(session,"2022-03-14","2022-03-20");
 
+    //retourne les notes
     let notes=await myED.getNotes(session);
 
+    //retourne la liste des devoirs à venir
     let homework=await myED.getAllHomework(session);
 
+    //retourne le devoir demandé
     let dailyHomework=await myED.getDailyHomework(session,"2022-03-22")
 
     let homeworkID=1234;
+    //coche le devoir
     await myED.checkHomework(session,homeworkID)
 
+    //décoche le devoir
     await myED.unchekHomework(session,homeworkID)
-}
-
-start();
+})()
 
 
 ```

@@ -1,4 +1,4 @@
-//const fetch=require("node-fetch");
+const fetch=require("node-fetch");
 const endpoint="https://api.ecoledirecte.com/v3/";
 const theHeader={
   'authority': 'api.ecoledirecte.com',
