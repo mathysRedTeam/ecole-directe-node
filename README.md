@@ -47,3 +47,15 @@ const myED=require("ecole-directe-node");
     await myED.uncheckHomework(session,homeworkID)
 })()
 ```
+
+[npm-url]:https://npmjs.org/package/npms-cli
+[downloads-image]:http://img.shields.io/npm/dm/npms-cli.svg
+[npm-image]:http://img.shields.io/npm/v/npms-cli.svg
+[travis-url]:https://travis-ci.org/npms-io/npms-cli
+[travis-image]:http://img.shields.io/travis/npms-io/npms-cli/master.svg
+[codecov-url]:https://codecov.io/gh/npms-io/npms-cli
+[codecov-image]:https://img.shields.io/codecov/c/github/npms-io/npms-cli/master.svg
+[david-dm-url]:https://david-dm.org/npms-io/npms-cli
+[david-dm-image]:https://img.shields.io/david/npms-io/npms-cli.svg
+[david-dm-dev-url]:https://david-dm.org/npms-io/npms-cli#info=devDependencies
+[david-dm-dev-image]:https://img.shields.io/david/dev/npms-io/npms-cli.svg
