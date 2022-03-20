@@ -42,8 +42,6 @@ const myED=require("ecole-directe-node");
     await myED.checkHomework(session,homeworkID)
 
     //décoche le devoir
-    await myED.unchekHomework(session,homeworkID)
+    await myED.uncheckHomework(session,homeworkID)
 })()
-
-
 ```
