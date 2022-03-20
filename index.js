@@ -2,7 +2,7 @@ const fetch=require("node-fetch");
 const endpoint="https://api.ecoledirecte.com/v3/";
 const theHeader={
   'authority': 'api.ecoledirecte.com',
-  'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"'
   'accept': 'application/json, text/plain, */*',
   'content-type': 'application/x-www-form-urlencoded',
   'x-token': '',
