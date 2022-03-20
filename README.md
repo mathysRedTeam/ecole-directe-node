@@ -28,7 +28,7 @@ const myED=require("ecole-directe-node");
     //retourne l'emploi du temps
     let edt=await myED.getEDT(session,"2022-03-14","2022-03-20");
 
-    //retourne les notes
+    //retourne les notes du trimestre
     let notes=await myED.getNotes(session);
 
     //retourne la liste des devoirs à venir
