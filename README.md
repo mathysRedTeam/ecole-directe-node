@@ -20,12 +20,12 @@ const myED=require("ecole-directe-node");
 
 
     //retourne la liste des messages
-    let myMessages=await myED.getMessages(session);
+    let myMessages=await myED.getAllMessages(session);
 
 
     //retourne le dernier message reçu
     let firstMessageId=myMessages.data.messages.received[0].id;
-    let firstMessageContent=await myED.getMessageContent(session,firstMessageId);
+    let firstMessageContent=await myED.getMessage(session,firstMessageId);
 
     //retourne l'emploi du temps
     let edt=await myED.getEDT(session,"2022-03-14","2022-03-20");

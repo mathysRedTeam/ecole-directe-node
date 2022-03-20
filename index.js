@@ -49,13 +49,13 @@ module.exports={
     });
     return session;
   },
-  getMessages: async(session)=>{
+  getAllMessages: async(session)=>{
     let messages=await fetchED(`eleves/${session.data.accounts[0].id}/messages.awp?force=false&typeRecuperation=received&idClasseur=0&orderBy=date&order=desc&query=&onlyRead=&page=0&itemsPerPage=20&verbe=getall&v=4.6.0`,{
         "anneeMessages": "2021-2022"
     },session.token);
     return messages;
   },
-  getMessageContent: async(session,messageId)=>{
+  getMessage: async(session,messageId)=>{
     let message=await fetchED(`eleves/3253/messages/${messageId}.awp?verbe=get&mode=destinataire&v=4.6.0`,{
         "anneeMessages": "2021-2022"
     },session.token);
