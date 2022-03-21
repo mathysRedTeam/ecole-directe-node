@@ -1,7 +1,7 @@
 const dotenv = require('dotenv');
 dotenv.config();
 
-const myED=require("./");
+const myED=require("ecole-directe-node");
 
 (async () => {
     //retourne les informations de la session et de l'élève
