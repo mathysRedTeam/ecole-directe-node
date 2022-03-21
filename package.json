@@ -1,6 +1,6 @@
 {
   "name": "ecole-directe-node",
-  "version": "2.0.18",
+  "version": "2.0.19",
   "description": "Best ecoledirecte package",
   "main": "index.js",
   "scripts": {
