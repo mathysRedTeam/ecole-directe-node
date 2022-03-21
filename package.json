@@ -1,7 +1,7 @@
 {
   "name": "ecole-directe-node",
   "version": "2.0.19",
-  "description": "Best ecoledirecte package",
+  "description": "Intéragissez facilement avec Ecole Directe",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
