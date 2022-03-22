@@ -5,7 +5,7 @@
 
 ## Fonctionnalités
 
-🔐 Authentification pour les comptes **Élèves** bientôt comptes parents.
+🔐 Authentification pour les comptes **Élèves** bientôt comptes parents.  
 📑 Récupération des **notes**  
 📚 Récupération et actions sur les **devoirs**  
 📅 Récupération des **emplois du temps**  
