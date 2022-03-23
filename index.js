@@ -100,5 +100,5 @@ module.exports={
     let vieScolaire=await fetchED(`eleves/${session.data.accounts[0].id}/viescolaire.awp?verbe=get&v=4.6.0`,{},session.token);
     return vieScolaire;
   }
-    
+    //test
 }
